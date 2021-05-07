@@ -2,7 +2,15 @@ import java.util.*;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+* @author Richard del Plain
+* @date 5/6/21
+*/
+
 class Main {
+  /**
+  * @param array array of guessed letters
+  */
   public static void printArray(ArrayList<Character> array) {
     for(int i = 0; i < array.size(); i++) {
       System.out.print(array.get(i));
